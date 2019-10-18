@@ -1,0 +1,109 @@
+body {
+  background: #3872d6;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+}
+
+.heading{
+  font-weight: 700;
+  margin: 30px;
+}
+
+.heading span {
+  color: #3872d6;
+  background: #fff;
+  padding: 0 3px 0 3px ;
+  border-radius: 5px;
+}
+
+.primary-paragraph{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.details{
+  color: #666666;
+  margin: auto;
+  background: #e8e8e8;
+  padding: 2% 2%;
+}
+
+.details div{
+  text-align: left;
+  padding: 0;
+  font-size: 12px;
+}
+
+.form-paragraph{
+  font-size: 12px;
+}
+
+.form-paragraph a {
+  color: #000;
+}
+
+.form-paragraph a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+.on-small-screen{
+  display: none;
+}
+
+.login-paragraph{
+  color: #000;
+  font-size: 18px;
+}
+
+footer{
+  font-size: 14px;
+  margin-top: 10px;
+  color: #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  
+  body{
+    padding: 2%;
+  }
+
+  .details{
+    background: none;
+    color: #fff;
+  }
+
+  .details div {
+    text-align: center;
+    color: #000;
+  }
+
+  .form-paragraph a{
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .btn{
+    border-color: #fff;
+  }
+
+  .on-small-screen{
+    display: block;
+    width: 100%;
+    padding: 1%;
+  }
+
+  .on-desktop{
+    display: none;
+  }
+
+  .login-paragraph{
+    color: #fff;
+  }
+
+  .login-paragraph a{
+    color: #fff;
+    font-weight: 600;
+  }
+}
